@@ -1,0 +1,98 @@
+[2023-11-03T02:06:07.540-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DesafioAirflow.export_final_output scheduled__2023-11-02T05:05:31.020251+00:00 [queued]>
+[2023-11-03T02:06:07.543-0300] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DesafioAirflow.export_final_output scheduled__2023-11-02T05:05:31.020251+00:00 [queued]>
+[2023-11-03T02:06:07.544-0300] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-03T02:06:07.554-0300] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): export_final_output> on 2023-11-02 05:05:31.020251+00:00
+[2023-11-03T02:06:07.557-0300] {standard_task_runner.py:57} INFO - Started process 27879 to run task
+[2023-11-03T02:06:07.558-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'DesafioAirflow', 'export_final_output', 'scheduled__2023-11-02T05:05:31.020251+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/example_desafio.py', '--cfg-path', '/tmp/tmp6_ogw085']
+[2023-11-03T02:06:07.558-0300] {standard_task_runner.py:85} INFO - Job 7: Subtask export_final_output
+[2023-11-03T02:06:07.578-0300] {task_command.py:416} INFO - Running <TaskInstance: DesafioAirflow.export_final_output scheduled__2023-11-02T05:05:31.020251+00:00 [running]> on host Felipe.
+[2023-11-03T02:06:07.610-0300] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='DesafioAirflow' AIRFLOW_CTX_TASK_ID='export_final_output' AIRFLOW_CTX_EXECUTION_DATE='2023-11-02T05:05:31.020251+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-02T05:05:31.020251+00:00'
+[2023-11-03T02:06:07.612-0300] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/felipe/airflow/dags/example_desafio.py", line 32, in export_final_answer
+    my_email = Variable.get("my_email")
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable my_email does not exist'
+[2023-11-03T02:06:07.614-0300] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=DesafioAirflow, task_id=export_final_output, execution_date=20231102T050531, start_date=20231103T050607, end_date=20231103T050607
+[2023-11-03T02:06:07.623-0300] {logging_mixin.py:151} WARNING - /home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-11-03T02:06:07.624-0300] {configuration.py:1068} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-11-03T02:06:07.624-0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-11-03T02:06:07.625-0300] {configuration.py:1068} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-11-03T02:06:07.625-0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-11-03T02:06:07.626-0300] {taskinstance.py:2007} ERROR - Failed to send email to: ['airflow@example.com']
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1681, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1744, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/felipe/airflow/dags/example_desafio.py", line 32, in export_final_answer
+    my_email = Variable.get("my_email")
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable my_email does not exist'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2420, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/lib/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.9/socket.py", line 844, in create_connection
+    raise err
+  File "/usr/lib/python3.9/socket.py", line 832, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2005, in handle_failure
+    self.email_alert(error, task)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2422, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/lib/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.9/socket.py", line 844, in create_connection
+    raise err
+  File "/usr/lib/python3.9/socket.py", line 832, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2023-11-03T02:06:07.633-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 7 for task export_final_output ('Variable my_email does not exist'; 27879)
+[2023-11-03T02:06:07.651-0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-03T02:06:07.658-0300] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

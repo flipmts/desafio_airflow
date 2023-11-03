@@ -1,0 +1,704 @@
+[2023-11-03T01:29:49.198-0300] {processor.py:157} INFO - Started process (PID=16549) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:29:49.199-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:29:49.199-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.199-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:29:49.203-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:29:49.264-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.264-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:29:49.272-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.272-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:29:49.279-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.279-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:29:49.279-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.279-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:29:49.285-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.285-0300] {dag.py:2963} INFO - Creating ORM DAG for example_setup_teardown
+[2023-11-03T01:29:49.290-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:29:49.290-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:29:49.290731+00:00, run_after=2023-11-03T04:29:49.290731+00:00
+[2023-11-03T01:29:49.316-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2023-11-03T01:30:34.897-0300] {processor.py:157} INFO - Started process (PID=16810) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:30:34.903-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:30:34.903-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:30:34.903-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:30:34.908-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:30:34.917-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:30:34.917-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:30:34.930-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:30:34.929-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:30:34.929824+00:00, run_after=2023-11-03T04:30:34.929824+00:00
+[2023-11-03T01:30:34.946-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.050 seconds
+[2023-11-03T01:31:17.086-0300] {processor.py:157} INFO - Started process (PID=17019) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:31:17.092-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:31:17.092-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:31:17.092-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:31:17.096-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:31:17.104-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:31:17.103-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:31:17.113-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:31:17.113-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:31:17.113647+00:00, run_after=2023-11-03T04:31:17.113647+00:00
+[2023-11-03T01:31:17.126-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.042 seconds
+[2023-11-03T01:32:03.439-0300] {processor.py:157} INFO - Started process (PID=17352) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:03.446-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:32:03.446-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:03.446-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:03.450-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:03.454-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:03.454-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:32:03.464-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:03.464-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:32:03.464520+00:00, run_after=2023-11-03T04:32:03.464520+00:00
+[2023-11-03T01:32:03.477-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T01:32:46.619-0300] {processor.py:157} INFO - Started process (PID=17611) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:46.625-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:32:46.626-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:46.625-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:46.630-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:32:46.638-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:46.637-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:32:46.647-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:46.647-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:32:46.647565+00:00, run_after=2023-11-03T04:32:46.647565+00:00
+[2023-11-03T01:32:46.661-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T01:33:28.788-0300] {processor.py:157} INFO - Started process (PID=17827) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:33:28.789-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:33:28.790-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:33:28.789-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:33:28.793-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:33:28.801-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:33:28.801-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:33:28.811-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:33:28.811-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:33:28.811291+00:00, run_after=2023-11-03T04:33:28.811291+00:00
+[2023-11-03T01:33:28.825-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T01:34:11.127-0300] {processor.py:157} INFO - Started process (PID=18144) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:11.128-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:34:11.128-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:11.128-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:11.131-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:11.139-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:11.138-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:34:11.148-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:11.148-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:34:11.148231+00:00, run_after=2023-11-03T04:34:11.148231+00:00
+[2023-11-03T01:34:11.161-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.036 seconds
+[2023-11-03T01:34:57.177-0300] {processor.py:157} INFO - Started process (PID=18408) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:57.184-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:34:57.185-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:57.184-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:57.188-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:34:57.196-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:57.196-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:34:57.206-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:57.206-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:34:57.206588+00:00, run_after=2023-11-03T04:34:57.206588+00:00
+[2023-11-03T01:34:57.220-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T01:35:43.889-0300] {processor.py:157} INFO - Started process (PID=18731) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:35:43.894-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:35:43.895-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:43.895-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:35:43.898-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:35:43.907-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:43.907-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:35:43.916-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:43.916-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:35:43.916588+00:00, run_after=2023-11-03T04:35:43.916588+00:00
+[2023-11-03T01:35:43.930-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.042 seconds
+[2023-11-03T01:36:31.663-0300] {processor.py:157} INFO - Started process (PID=18991) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:36:31.670-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:36:31.671-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:31.670-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:36:31.675-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:36:31.682-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:31.682-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:36:31.692-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:31.692-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:36:31.692096+00:00, run_after=2023-11-03T04:36:31.692096+00:00
+[2023-11-03T01:36:31.705-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T01:37:05.824-0300] {processor.py:157} INFO - Started process (PID=19198) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:05.825-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:37:05.826-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:05.825-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:05.829-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:05.837-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:05.837-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:37:05.846-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:05.846-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:37:05.846642+00:00, run_after=2023-11-03T04:37:05.846642+00:00
+[2023-11-03T01:37:05.860-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.037 seconds
+[2023-11-03T01:37:58.483-0300] {processor.py:157} INFO - Started process (PID=19538) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:58.489-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:37:58.490-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:58.490-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:58.494-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:37:58.501-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:58.501-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:37:58.511-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:58.511-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:37:58.511455+00:00, run_after=2023-11-03T04:37:58.511455+00:00
+[2023-11-03T01:37:58.525-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T01:38:31.660-0300] {processor.py:157} INFO - Started process (PID=19742) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:38:31.666-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:38:31.666-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:38:31.666-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:38:31.670-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:38:31.678-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:38:31.677-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:38:31.687-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:38:31.687-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:38:31.687362+00:00, run_after=2023-11-03T04:38:31.687362+00:00
+[2023-11-03T01:38:31.701-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T01:57:05.648-0300] {processor.py:157} INFO - Started process (PID=24353) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:05.649-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:57:05.649-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:05.649-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:05.653-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:05.658-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:05.658-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:57:05.672-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:05.671-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:57:05.671676+00:00, run_after=2023-11-03T04:57:05.671676+00:00
+[2023-11-03T01:57:05.691-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T01:57:49.608-0300] {processor.py:157} INFO - Started process (PID=24644) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:49.614-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:57:49.615-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:49.615-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:49.619-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:57:49.626-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:49.626-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:57:49.636-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:49.636-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:57:49.636226+00:00, run_after=2023-11-03T04:57:49.636226+00:00
+[2023-11-03T01:57:49.649-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T01:58:35.712-0300] {processor.py:157} INFO - Started process (PID=24943) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:58:35.718-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:58:35.719-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:35.718-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:58:35.723-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:58:35.730-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:35.730-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:58:35.740-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:35.740-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:58:35.740373+00:00, run_after=2023-11-03T04:58:35.740373+00:00
+[2023-11-03T01:58:35.754-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T01:59:10.829-0300] {processor.py:157} INFO - Started process (PID=25163) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:10.835-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:59:10.836-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:10.836-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:10.840-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:10.848-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:10.848-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:59:10.858-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:10.858-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:59:10.857983+00:00, run_after=2023-11-03T04:59:10.857983+00:00
+[2023-11-03T01:59:10.871-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T01:59:55.128-0300] {processor.py:157} INFO - Started process (PID=25384) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:55.129-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T01:59:55.130-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:55.130-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:55.134-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T01:59:55.142-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:55.142-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:59:55.153-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:55.152-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T04:59:55.152772+00:00, run_after=2023-11-03T04:59:55.152772+00:00
+[2023-11-03T01:59:55.168-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.041 seconds
+[2023-11-03T02:00:40.104-0300] {processor.py:157} INFO - Started process (PID=25679) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:00:40.111-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:00:40.111-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:40.111-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:00:40.115-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:00:40.123-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:40.123-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:00:40.134-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:40.133-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:00:40.133814+00:00, run_after=2023-11-03T05:00:40.133814+00:00
+[2023-11-03T02:00:40.147-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:01:13.815-0300] {processor.py:157} INFO - Started process (PID=25880) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:13.822-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:01:13.822-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:13.822-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:13.826-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:13.834-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:13.834-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:01:13.844-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:13.844-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:01:13.843905+00:00, run_after=2023-11-03T05:01:13.843905+00:00
+[2023-11-03T02:01:13.857-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:01:58.301-0300] {processor.py:157} INFO - Started process (PID=26089) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:58.307-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:01:58.308-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:58.308-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:58.312-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:01:58.320-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:58.320-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:01:58.330-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:58.330-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:01:58.330528+00:00, run_after=2023-11-03T05:01:58.330528+00:00
+[2023-11-03T02:01:58.344-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:02:32.004-0300] {processor.py:157} INFO - Started process (PID=26390) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:02:32.005-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:02:32.005-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:32.005-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:02:32.009-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:02:32.017-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:32.017-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:02:32.036-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:32.036-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:02:32.036252+00:00, run_after=2023-11-03T05:02:32.036252+00:00
+[2023-11-03T02:02:32.050-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.047 seconds
+[2023-11-03T02:03:06.787-0300] {processor.py:157} INFO - Started process (PID=26576) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:06.793-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:03:06.793-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:06.793-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:06.797-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:06.805-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:06.805-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:03:06.814-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:06.814-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:03:06.814672+00:00, run_after=2023-11-03T05:03:06.814672+00:00
+[2023-11-03T02:03:06.827-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.042 seconds
+[2023-11-03T02:03:54.114-0300] {processor.py:157} INFO - Started process (PID=26817) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:54.115-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:03:54.116-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:54.115-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:54.119-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:03:54.126-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:54.126-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:03:54.136-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:54.136-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:03:54.136056+00:00, run_after=2023-11-03T05:03:54.136056+00:00
+[2023-11-03T02:03:54.150-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:04:42.454-0300] {processor.py:157} INFO - Started process (PID=27223) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:04:42.454-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:04:42.455-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:42.455-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:04:42.459-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:04:42.467-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:42.467-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:04:42.477-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:42.477-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:04:42.476956+00:00, run_after=2023-11-03T05:04:42.476956+00:00
+[2023-11-03T02:04:42.492-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:05:16.143-0300] {processor.py:157} INFO - Started process (PID=27471) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:16.144-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:05:16.145-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:16.145-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:16.149-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:16.157-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:16.157-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:05:16.167-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:16.167-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:05:16.166966+00:00, run_after=2023-11-03T05:05:16.166966+00:00
+[2023-11-03T02:05:16.182-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.041 seconds
+[2023-11-03T02:05:49.287-0300] {processor.py:157} INFO - Started process (PID=27636) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:49.288-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:05:49.289-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:49.289-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:49.293-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:05:49.301-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:49.301-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:05:49.310-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:49.310-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:05:49.310439+00:00, run_after=2023-11-03T05:05:49.310439+00:00
+[2023-11-03T02:05:49.324-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:06:30.841-0300] {processor.py:157} INFO - Started process (PID=28052) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:06:30.847-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:06:30.848-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:30.847-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:06:30.852-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:06:30.860-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:30.859-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:06:30.870-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:30.870-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:06:30.869918+00:00, run_after=2023-11-03T05:06:30.869918+00:00
+[2023-11-03T02:06:30.883-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:07:10.274-0300] {processor.py:157} INFO - Started process (PID=28317) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:10.275-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:07:10.276-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:10.275-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:10.280-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:10.288-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:10.288-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:07:10.299-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:10.298-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:07:10.298806+00:00, run_after=2023-11-03T05:07:10.298806+00:00
+[2023-11-03T02:07:10.313-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:07:44.419-0300] {processor.py:157} INFO - Started process (PID=28627) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:44.420-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:07:44.421-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:44.421-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:44.425-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:07:44.432-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:44.432-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:07:44.442-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:44.441-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:07:44.441859+00:00, run_after=2023-11-03T05:07:44.441859+00:00
+[2023-11-03T02:07:44.455-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.037 seconds
+[2023-11-03T02:08:29.599-0300] {processor.py:157} INFO - Started process (PID=28887) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:08:29.600-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:08:29.600-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.600-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:08:29.604-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:08:29.612-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.612-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:08:29.622-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.622-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:08:29.622487+00:00, run_after=2023-11-03T05:08:29.622487+00:00
+[2023-11-03T02:08:29.636-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:09:02.772-0300] {processor.py:157} INFO - Started process (PID=29074) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:02.778-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:09:02.779-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:02.779-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:02.783-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:02.791-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:02.791-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:09:02.801-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:02.801-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:09:02.801387+00:00, run_after=2023-11-03T05:09:02.801387+00:00
+[2023-11-03T02:09:02.816-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:09:50.631-0300] {processor.py:157} INFO - Started process (PID=29299) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:50.632-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:09:50.632-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:50.632-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:50.636-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:09:50.644-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:50.644-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:09:50.654-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:50.654-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:09:50.654101+00:00, run_after=2023-11-03T05:09:50.654101+00:00
+[2023-11-03T02:09:50.668-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:10:26.223-0300] {processor.py:157} INFO - Started process (PID=29638) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:10:26.224-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:10:26.224-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:26.224-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:10:26.228-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:10:26.236-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:26.236-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:10:26.246-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:26.246-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:10:26.246432+00:00, run_after=2023-11-03T05:10:26.246432+00:00
+[2023-11-03T02:10:26.260-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:11:05.116-0300] {processor.py:157} INFO - Started process (PID=29899) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:05.117-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:11:05.118-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:05.118-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:05.122-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:05.132-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:05.132-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:11:05.145-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:05.144-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:11:05.144837+00:00, run_after=2023-11-03T05:11:05.144837+00:00
+[2023-11-03T02:11:05.161-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.047 seconds
+[2023-11-03T02:11:44.576-0300] {processor.py:157} INFO - Started process (PID=30176) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:44.583-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:11:44.583-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:44.583-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:44.587-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:11:44.596-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:44.596-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:11:44.605-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:44.605-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:11:44.605730+00:00, run_after=2023-11-03T05:11:44.605730+00:00
+[2023-11-03T02:11:44.619-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:12:20.573-0300] {processor.py:157} INFO - Started process (PID=30540) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:20.580-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:12:20.580-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:20.580-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:20.584-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:20.592-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:20.592-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:12:20.602-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:20.602-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:12:20.602710+00:00, run_after=2023-11-03T05:12:20.602710+00:00
+[2023-11-03T02:12:20.617-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:12:55.332-0300] {processor.py:157} INFO - Started process (PID=30759) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:55.338-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:12:55.338-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:55.338-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:55.342-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:12:55.350-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:55.350-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:12:55.362-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:55.362-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:12:55.362245+00:00, run_after=2023-11-03T05:12:55.362245+00:00
+[2023-11-03T02:12:55.376-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.046 seconds
+[2023-11-03T02:13:42.231-0300] {processor.py:157} INFO - Started process (PID=31008) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:13:42.232-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:13:42.233-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:42.232-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:13:42.237-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:13:42.244-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:42.244-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:13:42.255-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:42.255-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:13:42.255170+00:00, run_after=2023-11-03T05:13:42.255170+00:00
+[2023-11-03T02:13:42.268-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:14:26.387-0300] {processor.py:157} INFO - Started process (PID=31262) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:14:26.388-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:14:26.389-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:26.389-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:14:26.393-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:14:26.400-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:26.400-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:14:26.411-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:26.411-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:14:26.411342+00:00, run_after=2023-11-03T05:14:26.411342+00:00
+[2023-11-03T02:14:26.426-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:15:13.012-0300] {processor.py:157} INFO - Started process (PID=31529) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:13.018-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:15:13.019-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:13.018-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:13.022-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:13.030-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:13.030-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:15:13.040-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:13.040-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:15:13.040395+00:00, run_after=2023-11-03T05:15:13.040395+00:00
+[2023-11-03T02:15:13.055-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:15:59.536-0300] {processor.py:157} INFO - Started process (PID=31745) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:59.542-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:15:59.543-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:59.543-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:59.547-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:15:59.555-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:59.555-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:15:59.565-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:59.565-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:15:59.565468+00:00, run_after=2023-11-03T05:15:59.565468+00:00
+[2023-11-03T02:15:59.579-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:16:47.198-0300] {processor.py:157} INFO - Started process (PID=32009) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:16:47.204-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:16:47.205-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:47.204-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:16:47.209-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:16:47.217-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:47.217-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:16:47.227-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:47.227-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:16:47.227505+00:00, run_after=2023-11-03T05:16:47.227505+00:00
+[2023-11-03T02:16:47.242-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.046 seconds
+[2023-11-03T02:17:33.334-0300] {processor.py:157} INFO - Started process (PID=32295) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:17:33.340-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:17:33.341-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:33.341-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:17:33.345-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:17:33.353-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:33.353-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:17:33.363-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:33.362-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:17:33.362676+00:00, run_after=2023-11-03T05:17:33.362676+00:00
+[2023-11-03T02:17:33.376-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:18:19.644-0300] {processor.py:157} INFO - Started process (PID=32553) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:18:19.646-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:18:19.646-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:19.646-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:18:19.650-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:18:19.659-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:19.658-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:18:19.668-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:19.668-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:18:19.668534+00:00, run_after=2023-11-03T05:18:19.668534+00:00
+[2023-11-03T02:18:19.683-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:19:08.217-0300] {processor.py:157} INFO - Started process (PID=32809) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:08.223-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:19:08.224-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:08.224-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:08.228-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:08.236-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:08.236-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:19:08.246-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:08.246-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:19:08.246178+00:00, run_after=2023-11-03T05:19:08.246178+00:00
+[2023-11-03T02:19:08.260-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:19:57.265-0300] {processor.py:157} INFO - Started process (PID=33048) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:57.266-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:19:57.266-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:57.266-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:57.270-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:19:57.278-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:57.278-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:19:57.289-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:57.289-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:19:57.288889+00:00, run_after=2023-11-03T05:19:57.288889+00:00
+[2023-11-03T02:19:57.303-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:20:40.807-0300] {processor.py:157} INFO - Started process (PID=33290) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:20:40.808-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:20:40.808-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:40.808-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:20:40.812-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:20:40.819-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:40.819-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:20:40.830-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:40.829-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:20:40.829768+00:00, run_after=2023-11-03T05:20:40.829768+00:00
+[2023-11-03T02:20:40.847-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.042 seconds
+[2023-11-03T02:21:15.544-0300] {processor.py:157} INFO - Started process (PID=33474) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:15.551-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:21:15.551-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:15.551-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:15.555-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:15.562-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:15.562-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:21:15.572-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:15.572-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:21:15.572137+00:00, run_after=2023-11-03T05:21:15.572137+00:00
+[2023-11-03T02:21:15.586-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T02:21:59.863-0300] {processor.py:157} INFO - Started process (PID=33677) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:59.873-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:21:59.874-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:59.874-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:59.878-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:21:59.886-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:59.886-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:21:59.896-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:59.895-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:21:59.895804+00:00, run_after=2023-11-03T05:21:59.895804+00:00
+[2023-11-03T02:21:59.919-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.057 seconds
+[2023-11-03T02:22:32.859-0300] {processor.py:157} INFO - Started process (PID=33908) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:22:32.866-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:22:32.866-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:32.866-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:22:32.870-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:22:32.878-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:32.878-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:22:32.888-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:32.888-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:22:32.888507+00:00, run_after=2023-11-03T05:22:32.888507+00:00
+[2023-11-03T02:22:32.902-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:23:18.253-0300] {processor.py:157} INFO - Started process (PID=34157) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:18.259-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:23:18.260-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:18.260-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:18.264-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:18.272-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:18.272-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:23:18.282-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:18.282-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:23:18.281964+00:00, run_after=2023-11-03T05:23:18.281964+00:00
+[2023-11-03T02:23:18.296-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:23:52.263-0300] {processor.py:157} INFO - Started process (PID=34316) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:52.270-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:23:52.270-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:52.270-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:52.274-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:23:52.282-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:52.282-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:23:52.291-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:52.291-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:23:52.291761+00:00, run_after=2023-11-03T05:23:52.291761+00:00
+[2023-11-03T02:23:52.305-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:24:36.089-0300] {processor.py:157} INFO - Started process (PID=34558) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:24:36.095-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:24:36.096-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:36.096-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:24:36.100-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:24:36.108-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:36.107-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:24:36.117-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:36.117-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:24:36.117434+00:00, run_after=2023-11-03T05:24:36.117434+00:00
+[2023-11-03T02:24:36.132-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:25:09.869-0300] {processor.py:157} INFO - Started process (PID=34736) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:09.870-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:25:09.871-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:09.871-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:09.875-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:09.883-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:09.882-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:25:09.892-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:09.892-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:25:09.892643+00:00, run_after=2023-11-03T05:25:09.892643+00:00
+[2023-11-03T02:25:09.905-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:25:43.054-0300] {processor.py:157} INFO - Started process (PID=34902) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:43.060-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:25:43.061-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:43.061-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:43.065-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:25:43.073-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:43.073-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:25:43.083-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:43.083-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:25:43.083398+00:00, run_after=2023-11-03T05:25:43.083398+00:00
+[2023-11-03T02:25:43.097-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:26:29.772-0300] {processor.py:157} INFO - Started process (PID=35160) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:26:29.773-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:26:29.774-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:29.773-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:26:29.777-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:26:29.786-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:29.785-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:26:29.796-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:29.796-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:26:29.796045+00:00, run_after=2023-11-03T05:26:29.796045+00:00
+[2023-11-03T02:26:29.809-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:27:16.848-0300] {processor.py:157} INFO - Started process (PID=35444) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:16.849-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:27:16.849-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:16.849-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:16.853-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:16.861-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:16.861-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:27:16.871-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:16.871-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:27:16.871656+00:00, run_after=2023-11-03T05:27:16.871656+00:00
+[2023-11-03T02:27:16.885-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:27:49.640-0300] {processor.py:157} INFO - Started process (PID=35610) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:49.641-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:27:49.642-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:49.642-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:49.646-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:27:49.655-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:49.654-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:27:49.664-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:49.664-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:27:49.664555+00:00, run_after=2023-11-03T05:27:49.664555+00:00
+[2023-11-03T02:27:49.679-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.041 seconds
+[2023-11-03T02:28:37.008-0300] {processor.py:157} INFO - Started process (PID=35874) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:28:37.014-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:28:37.015-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:37.015-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:28:37.019-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:28:37.027-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:37.027-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:28:37.037-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:37.037-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:28:37.037064+00:00, run_after=2023-11-03T05:28:37.037064+00:00
+[2023-11-03T02:28:37.051-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:29:11.728-0300] {processor.py:157} INFO - Started process (PID=36059) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:11.735-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:29:11.736-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:11.736-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:11.740-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:11.748-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:11.748-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:29:11.758-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:11.758-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:29:11.758023+00:00, run_after=2023-11-03T05:29:11.758023+00:00
+[2023-11-03T02:29:11.772-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:29:57.931-0300] {processor.py:157} INFO - Started process (PID=36269) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:57.937-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:29:57.938-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:57.937-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:57.942-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:29:57.950-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:57.950-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:29:57.960-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:57.960-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:29:57.960664+00:00, run_after=2023-11-03T05:29:57.960664+00:00
+[2023-11-03T02:29:57.977-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.048 seconds
+[2023-11-03T02:30:29.659-0300] {processor.py:157} INFO - Started process (PID=36461) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:30:29.660-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:30:29.660-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:29.660-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:30:29.664-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:30:29.672-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:29.672-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:30:29.683-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:29.683-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:30:29.682990+00:00, run_after=2023-11-03T05:30:29.682990+00:00
+[2023-11-03T02:30:29.696-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:31:02.714-0300] {processor.py:157} INFO - Started process (PID=36654) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:02.721-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:31:02.721-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:02.721-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:02.725-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:02.734-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:02.733-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:31:02.743-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:02.743-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:31:02.743668+00:00, run_after=2023-11-03T05:31:02.743668+00:00
+[2023-11-03T02:31:02.757-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:31:47.155-0300] {processor.py:157} INFO - Started process (PID=36863) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:47.161-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:31:47.161-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:47.161-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:47.165-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:31:47.174-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:47.173-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:31:47.183-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:47.183-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:31:47.183431+00:00, run_after=2023-11-03T05:31:47.183431+00:00
+[2023-11-03T02:31:47.197-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:32:34.691-0300] {processor.py:157} INFO - Started process (PID=37163) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:32:34.698-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:32:34.698-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:34.698-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:32:34.702-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:32:34.710-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:34.710-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:32:34.721-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:34.721-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:32:34.721034+00:00, run_after=2023-11-03T05:32:34.721034+00:00
+[2023-11-03T02:32:34.735-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:33:20.990-0300] {processor.py:157} INFO - Started process (PID=37412) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:20.991-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:33:20.992-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:20.991-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:20.996-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:21.004-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:21.004-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:33:21.014-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:21.014-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:33:21.013964+00:00, run_after=2023-11-03T05:33:21.013964+00:00
+[2023-11-03T02:33:21.028-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:33:53.879-0300] {processor.py:157} INFO - Started process (PID=37557) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:53.885-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:33:53.886-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:53.886-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:53.890-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:33:53.898-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:53.898-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:33:53.908-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:53.908-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:33:53.908564+00:00, run_after=2023-11-03T05:33:53.908564+00:00
+[2023-11-03T02:33:53.922-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:34:44.235-0300] {processor.py:157} INFO - Started process (PID=37835) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:34:44.241-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:34:44.242-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:44.242-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:34:44.246-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:34:44.254-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:44.254-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:34:44.264-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:44.264-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:34:44.264040+00:00, run_after=2023-11-03T05:34:44.264040+00:00
+[2023-11-03T02:34:44.278-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:35:30.159-0300] {processor.py:157} INFO - Started process (PID=38078) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:35:30.166-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:35:30.167-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:30.166-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:35:30.171-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:35:30.179-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:30.179-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:35:30.189-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:30.189-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:35:30.188999+00:00, run_after=2023-11-03T05:35:30.188999+00:00
+[2023-11-03T02:35:30.202-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:36:03.733-0300] {processor.py:157} INFO - Started process (PID=38277) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:03.735-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:36:03.735-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:03.735-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:03.740-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:03.747-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:03.747-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:36:03.757-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:03.757-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:36:03.756911+00:00, run_after=2023-11-03T05:36:03.756911+00:00
+[2023-11-03T02:36:03.771-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:36:48.229-0300] {processor.py:157} INFO - Started process (PID=38480) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:48.231-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:36:48.232-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:48.232-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:48.236-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:36:48.244-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:48.244-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:36:48.254-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:48.254-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:36:48.253952+00:00, run_after=2023-11-03T05:36:48.253952+00:00
+[2023-11-03T02:36:48.267-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:37:30.460-0300] {processor.py:157} INFO - Started process (PID=38748) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:37:30.466-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:37:30.467-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:30.467-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:37:30.471-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:37:30.479-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:30.479-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:37:30.489-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:30.488-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:37:30.488870+00:00, run_after=2023-11-03T05:37:30.488870+00:00
+[2023-11-03T02:37:30.502-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:38:04.257-0300] {processor.py:157} INFO - Started process (PID=38931) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:04.264-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:38:04.264-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:04.264-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:04.269-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:04.277-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:04.277-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:38:04.287-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:04.287-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:38:04.287318+00:00, run_after=2023-11-03T05:38:04.287318+00:00
+[2023-11-03T02:38:04.301-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.046 seconds
+[2023-11-03T02:38:48.518-0300] {processor.py:157} INFO - Started process (PID=39134) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:48.519-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:38:48.520-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:48.519-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:48.524-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:38:48.531-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:48.531-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:38:48.542-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:48.541-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:38:48.541847+00:00, run_after=2023-11-03T05:38:48.541847+00:00
+[2023-11-03T02:38:48.556-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:39:20.671-0300] {processor.py:157} INFO - Started process (PID=39327) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:39:20.678-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:39:20.679-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:20.678-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:39:20.683-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:39:20.690-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:20.690-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:39:20.700-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:20.700-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:39:20.700080+00:00, run_after=2023-11-03T05:39:20.700080+00:00
+[2023-11-03T02:39:20.714-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:40:07.854-0300] {processor.py:157} INFO - Started process (PID=39591) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:07.861-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:40:07.861-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.861-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:07.865-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:07.873-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.873-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:40:07.883-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.883-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:40:07.883220+00:00, run_after=2023-11-03T05:40:07.883220+00:00
+[2023-11-03T02:40:07.896-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:40:42.916-0300] {processor.py:157} INFO - Started process (PID=39758) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:42.923-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:40:42.923-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:42.923-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:42.928-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:40:42.936-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:42.936-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:40:42.946-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:42.946-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:40:42.946364+00:00, run_after=2023-11-03T05:40:42.946364+00:00
+[2023-11-03T02:40:42.960-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:41:17.620-0300] {processor.py:157} INFO - Started process (PID=39944) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:17.621-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:41:17.622-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:17.621-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:17.625-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:17.633-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:17.633-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:41:17.643-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:17.643-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:41:17.643273+00:00, run_after=2023-11-03T05:41:17.643273+00:00
+[2023-11-03T02:41:17.658-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:41:52.937-0300] {processor.py:157} INFO - Started process (PID=40116) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:52.943-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:41:52.944-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:52.944-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:52.948-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:41:52.956-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:52.956-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:41:52.966-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:52.965-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:41:52.965774+00:00, run_after=2023-11-03T05:41:52.965774+00:00
+[2023-11-03T02:41:52.979-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:42:26.767-0300] {processor.py:157} INFO - Started process (PID=40346) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:42:26.768-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:42:26.769-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:26.768-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:42:26.773-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:42:26.781-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:26.780-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:42:26.790-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:26.790-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:42:26.790588+00:00, run_after=2023-11-03T05:42:26.790588+00:00
+[2023-11-03T02:42:26.804-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2023-11-03T02:43:11.054-0300] {processor.py:157} INFO - Started process (PID=40589) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:11.060-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:43:11.061-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:11.061-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:11.065-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:11.074-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:11.074-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:43:11.084-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:11.084-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:43:11.084470+00:00, run_after=2023-11-03T05:43:11.084470+00:00
+[2023-11-03T02:43:11.098-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:43:59.913-0300] {processor.py:157} INFO - Started process (PID=40812) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:59.919-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:43:59.920-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:59.920-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:59.924-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:43:59.933-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:59.933-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:43:59.943-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:59.943-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:43:59.942906+00:00, run_after=2023-11-03T05:43:59.942906+00:00
+[2023-11-03T02:43:59.957-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:44:46.121-0300] {processor.py:157} INFO - Started process (PID=41076) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:44:46.127-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:44:46.128-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:46.128-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:44:46.132-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:44:46.140-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:46.139-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:44:46.149-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:46.149-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:44:46.149709+00:00, run_after=2023-11-03T05:44:46.149709+00:00
+[2023-11-03T02:44:46.164-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:45:32.225-0300] {processor.py:157} INFO - Started process (PID=41319) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:45:32.232-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:45:32.233-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:32.232-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:45:32.237-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:45:32.245-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:32.245-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:45:32.255-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:32.255-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:45:32.255148+00:00, run_after=2023-11-03T05:45:32.255148+00:00
+[2023-11-03T02:45:32.269-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:46:20.802-0300] {processor.py:157} INFO - Started process (PID=41575) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:20.809-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:46:20.809-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:20.809-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:20.814-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:20.822-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:20.821-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:46:20.832-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:20.831-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:46:20.831803+00:00, run_after=2023-11-03T05:46:20.831803+00:00
+[2023-11-03T02:46:20.847-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.046 seconds
+[2023-11-03T02:46:53.548-0300] {processor.py:157} INFO - Started process (PID=41721) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:53.549-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:46:53.550-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:53.549-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:53.554-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:46:53.562-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:53.562-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:46:53.572-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:53.572-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:46:53.572334+00:00, run_after=2023-11-03T05:46:53.572334+00:00
+[2023-11-03T02:46:53.586-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:47:27.438-0300] {processor.py:157} INFO - Started process (PID=41952) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:47:27.444-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:47:27.445-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:27.445-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:47:27.449-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:47:27.457-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:27.456-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:47:27.467-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:27.466-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:47:27.466822+00:00, run_after=2023-11-03T05:47:27.466822+00:00
+[2023-11-03T02:47:27.480-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:48:01.187-0300] {processor.py:157} INFO - Started process (PID=42113) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:01.197-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:48:01.198-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:01.198-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:01.201-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:01.209-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:01.209-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:48:01.218-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:01.218-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:48:01.218226+00:00, run_after=2023-11-03T05:48:01.218226+00:00
+[2023-11-03T02:48:01.231-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:48:45.548-0300] {processor.py:157} INFO - Started process (PID=42372) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:45.549-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:48:45.549-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:45.549-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:45.553-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:48:45.561-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:45.561-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:48:45.570-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:45.570-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:48:45.570733+00:00, run_after=2023-11-03T05:48:45.570733+00:00
+[2023-11-03T02:48:45.584-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:49:30.878-0300] {processor.py:157} INFO - Started process (PID=42613) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:49:30.885-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:49:30.886-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:30.886-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:49:30.890-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:49:30.898-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:30.898-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:49:30.908-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:30.908-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:49:30.907993+00:00, run_after=2023-11-03T05:49:30.907993+00:00
+[2023-11-03T02:49:30.921-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2023-11-03T02:50:05.609-0300] {processor.py:157} INFO - Started process (PID=42799) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:05.610-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:50:05.610-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:05.610-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:05.614-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:05.622-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:05.622-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:50:05.632-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:05.632-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:50:05.632201+00:00, run_after=2023-11-03T05:50:05.632201+00:00
+[2023-11-03T02:50:05.645-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.037 seconds
+[2023-11-03T02:50:40.333-0300] {processor.py:157} INFO - Started process (PID=42966) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:40.334-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:50:40.334-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:40.334-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:40.338-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:50:40.345-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:40.345-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:50:40.355-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:40.355-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:50:40.355041+00:00, run_after=2023-11-03T05:50:40.355041+00:00
+[2023-11-03T02:50:40.370-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.038 seconds
+[2023-11-03T02:51:27.333-0300] {processor.py:157} INFO - Started process (PID=43216) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:51:27.336-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:51:27.337-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:27.337-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:51:27.341-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:51:27.349-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:27.349-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:51:27.358-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:27.358-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:51:27.358416+00:00, run_after=2023-11-03T05:51:27.358416+00:00
+[2023-11-03T02:51:27.372-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.040 seconds
+[2023-11-03T02:52:08.959-0300] {processor.py:157} INFO - Started process (PID=43482) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:08.966-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:52:08.966-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:08.966-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:08.970-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:08.977-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:08.977-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:52:08.986-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:08.986-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:52:08.986754+00:00, run_after=2023-11-03T05:52:08.986754+00:00
+[2023-11-03T02:52:09.000-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.042 seconds
+[2023-11-03T02:52:55.334-0300] {processor.py:157} INFO - Started process (PID=43691) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:55.336-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:52:55.337-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:55.336-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:55.342-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:52:55.352-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:55.352-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:52:55.367-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:55.367-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:52:55.367057+00:00, run_after=2023-11-03T05:52:55.367057+00:00
+[2023-11-03T02:52:55.383-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.050 seconds
+[2023-11-03T02:53:29.876-0300] {processor.py:157} INFO - Started process (PID=43877) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:53:29.882-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:53:29.883-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:29.883-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:53:29.887-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:53:29.895-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:29.895-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:53:29.904-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:29.904-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:53:29.904398+00:00, run_after=2023-11-03T05:53:29.904398+00:00
+[2023-11-03T02:53:29.918-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.043 seconds
+[2023-11-03T02:54:15.465-0300] {processor.py:157} INFO - Started process (PID=44141) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:15.466-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:54:15.466-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:15.466-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:15.470-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:15.478-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:15.477-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:54:15.487-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:15.487-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:54:15.487089+00:00, run_after=2023-11-03T05:54:15.487089+00:00
+[2023-11-03T02:54:15.501-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.037 seconds
+[2023-11-03T02:54:48.608-0300] {processor.py:157} INFO - Started process (PID=44301) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:48.614-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:54:48.615-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:48.615-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:48.619-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:54:48.627-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:48.627-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:54:48.637-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:48.637-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:54:48.637363+00:00, run_after=2023-11-03T05:54:48.637363+00:00
+[2023-11-03T02:54:48.651-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2023-11-03T02:55:33.823-0300] {processor.py:157} INFO - Started process (PID=44543) to work on /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:55:33.830-0300] {processor.py:829} INFO - Processing file /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T02:55:33.830-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:33.830-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:55:33.834-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T02:55:33.842-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:33.842-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:55:33.852-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:33.852-0300] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T05:55:33.852000+00:00, run_after=2023-11-03T05:55:33.852000+00:00
+[2023-11-03T02:55:33.867-0300] {processor.py:179} INFO - Processing /home/felipe/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds

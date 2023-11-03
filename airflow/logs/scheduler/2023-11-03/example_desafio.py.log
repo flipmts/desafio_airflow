@@ -1,0 +1,795 @@
+[2023-11-03T01:32:40.354-0300] {processor.py:157} INFO - Started process (PID=17584) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:32:40.354-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:32:40.355-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:40.355-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:32:40.357-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:32:40.356-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/example_desafio.py
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/example_desafio.py", line 9, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-11-03T01:32:40.357-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:32:40.375-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.022 seconds
+[2023-11-03T01:33:37.920-0300] {processor.py:157} INFO - Started process (PID=17868) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:33:37.926-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:33:37.926-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:33:37.926-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:33:37.928-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:33:37.928-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/example_desafio.py
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/example_desafio.py", line 9, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-11-03T01:33:37.928-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:33:37.939-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.021 seconds
+[2023-11-03T01:34:35.531-0300] {processor.py:157} INFO - Started process (PID=18244) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:34:35.537-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:34:35.538-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:35.538-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:34:35.540-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:34:35.539-0300] {dagbag.py:346} ERROR - Failed to import: /home/felipe/airflow/dags/example_desafio.py
+Traceback (most recent call last):
+  File "/home/felipe/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/example_desafio.py", line 9, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-11-03T01:34:35.540-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:34:35.552-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.022 seconds
+[2023-11-03T01:35:23.074-0300] {processor.py:157} INFO - Started process (PID=18624) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:35:23.080-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:35:23.081-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.081-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:35:23.245-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:35:23.307-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.307-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:35:23.315-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.315-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:35:23.322-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.322-0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T01:35:23.323-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.322-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:35:23.416-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.416-0300] {dag.py:2963} INFO - Creating ORM DAG for DesafioAirflow
+[2023-11-03T01:35:23.421-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:35:23.421-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:35:23.421193+00:00, run_after=2023-11-03T04:35:23.421193+00:00
+[2023-11-03T01:35:23.438-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.366 seconds
+[2023-11-03T01:36:12.536-0300] {processor.py:157} INFO - Started process (PID=18900) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:36:12.542-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:36:12.543-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:12.542-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:36:12.712-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:36:12.721-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:12.721-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:36:12.732-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:36:12.732-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:36:12.732347+00:00, run_after=2023-11-03T04:36:12.732347+00:00
+[2023-11-03T01:36:12.747-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.213 seconds
+[2023-11-03T01:37:03.181-0300] {processor.py:157} INFO - Started process (PID=19168) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:03.187-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:37:03.187-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:03.187-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:03.361-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:03.371-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:03.370-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:37:03.381-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:03.381-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:37:03.381670+00:00, run_after=2023-11-03T04:37:03.381670+00:00
+[2023-11-03T01:37:03.395-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.216 seconds
+[2023-11-03T01:37:54.484-0300] {processor.py:157} INFO - Started process (PID=19507) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:54.485-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:37:54.486-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:54.485-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:54.656-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:37:54.665-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:54.664-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:37:54.677-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:37:54.676-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T04:37:03.381670+00:00, run_after=2023-11-04T04:37:03.381670+00:00
+[2023-11-03T01:37:54.691-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.208 seconds
+[2023-11-03T01:56:58.407-0300] {processor.py:157} INFO - Started process (PID=24266) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:56:58.408-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:56:58.415-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:56:58.408-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:56:58.638-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:56:58.643-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:56:58.643-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:56:58.657-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:56:58.657-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:56:58.657419+00:00, run_after=2023-11-03T04:56:58.657419+00:00
+[2023-11-03T01:56:58.672-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.267 seconds
+[2023-11-03T01:57:43.580-0300] {processor.py:157} INFO - Started process (PID=24605) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:57:43.586-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:57:43.587-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:43.587-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:57:43.758-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:57:43.768-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:43.767-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:57:43.779-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:57:43.779-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:57:43.778933+00:00, run_after=2023-11-03T04:57:43.778933+00:00
+[2023-11-03T01:57:43.793-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.215 seconds
+[2023-11-03T01:58:16.309-0300] {processor.py:157} INFO - Started process (PID=24786) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:16.315-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:58:16.316-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:16.316-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:16.491-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:16.500-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:16.499-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:58:16.512-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:16.512-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:58:16.511943+00:00, run_after=2023-11-03T04:58:16.511943+00:00
+[2023-11-03T01:58:16.528-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.220 seconds
+[2023-11-03T01:58:50.569-0300] {processor.py:157} INFO - Started process (PID=24999) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:50.580-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:58:50.581-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:50.580-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:50.751-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:58:50.760-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:50.759-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:58:50.770-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:58:50.770-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:58:50.770587+00:00, run_after=2023-11-03T04:58:50.770587+00:00
+[2023-11-03T01:58:50.785-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.217 seconds
+[2023-11-03T01:59:24.329-0300] {processor.py:157} INFO - Started process (PID=25228) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:59:24.330-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T01:59:24.330-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:24.330-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:59:24.505-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T01:59:24.514-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:24.514-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T01:59:24.526-0300] {logging_mixin.py:151} INFO - [2023-11-03T01:59:24.526-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T04:59:24.526577+00:00, run_after=2023-11-03T04:59:24.526577+00:00
+[2023-11-03T01:59:24.548-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.221 seconds
+[2023-11-03T02:00:07.762-0300] {processor.py:157} INFO - Started process (PID=25523) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:07.768-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:00:07.769-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:07.768-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:07.936-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:07.946-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:07.945-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:00:07.959-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:07.959-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:00:07.959591+00:00, run_after=2023-11-03T05:00:07.959591+00:00
+[2023-11-03T02:00:07.974-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.214 seconds
+[2023-11-03T02:00:38.352-0300] {processor.py:157} INFO - Started process (PID=25662) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:38.358-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:00:38.359-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:38.359-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:38.528-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:00:38.537-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:38.537-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:00:38.548-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:00:38.548-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:00:38.548515+00:00, run_after=2023-11-03T05:00:38.548515+00:00
+[2023-11-03T02:00:38.564-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.213 seconds
+[2023-11-03T02:01:11.353-0300] {processor.py:157} INFO - Started process (PID=25857) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:11.354-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:01:11.355-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:11.355-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:11.526-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:11.534-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:11.534-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:01:11.548-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:11.547-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:01:11.547505+00:00, run_after=2023-11-03T05:01:11.547505+00:00
+[2023-11-03T02:01:11.563-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.211 seconds
+[2023-11-03T02:01:41.866-0300] {processor.py:157} INFO - Started process (PID=26009) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:41.872-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:01:41.873-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:41.873-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:42.051-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:01:42.062-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:42.061-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:01:42.073-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:01:42.073-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:01:42.073555+00:00, run_after=2023-11-03T05:01:42.073555+00:00
+[2023-11-03T02:01:42.093-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.228 seconds
+[2023-11-03T02:02:12.446-0300] {processor.py:157} INFO - Started process (PID=26284) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:12.453-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:02:12.454-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:12.454-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:12.624-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:12.634-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:12.633-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:02:12.645-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:12.644-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:02:12.644598+00:00, run_after=2023-11-03T05:02:12.644598+00:00
+[2023-11-03T02:02:12.659-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.214 seconds
+[2023-11-03T02:02:47.418-0300] {processor.py:157} INFO - Started process (PID=26453) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:47.424-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:02:47.425-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:47.425-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:47.590-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:02:47.599-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:47.598-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:02:47.609-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:02:47.609-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:02:47.609512+00:00, run_after=2023-11-03T05:02:47.609512+00:00
+[2023-11-03T02:02:47.625-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.208 seconds
+[2023-11-03T02:03:19.427-0300] {processor.py:157} INFO - Started process (PID=26646) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:19.428-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:03:19.428-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:19.428-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:19.604-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:19.614-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:19.613-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:03:19.627-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:19.627-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:03:19.627003+00:00, run_after=2023-11-03T05:03:19.627003+00:00
+[2023-11-03T02:03:19.643-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.218 seconds
+[2023-11-03T02:03:51.246-0300] {processor.py:157} INFO - Started process (PID=26783) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:51.253-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:03:51.253-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:51.253-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:51.420-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:03:51.429-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:51.429-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:03:51.440-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:03:51.440-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:03:51.440040+00:00, run_after=2023-11-03T05:03:51.440040+00:00
+[2023-11-03T02:03:51.455-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.210 seconds
+[2023-11-03T02:04:24.163-0300] {processor.py:157} INFO - Started process (PID=27072) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:24.170-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:04:24.171-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:24.171-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:24.338-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:24.346-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:24.346-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:04:24.357-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:24.357-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:04:24.357255+00:00, run_after=2023-11-03T05:04:24.357255+00:00
+[2023-11-03T02:04:24.458-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:04:56.737-0300] {processor.py:157} INFO - Started process (PID=27343) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:56.738-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:04:56.738-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:56.738-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:56.902-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:04:56.911-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:56.910-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:04:56.921-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:04:56.921-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:04:56.921358+00:00, run_after=2023-11-03T05:04:56.921358+00:00
+[2023-11-03T02:04:56.936-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.200 seconds
+[2023-11-03T02:05:30.798-0300] {processor.py:157} INFO - Started process (PID=27528) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:05:30.805-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:05:30.806-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:30.805-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:05:30.999-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:05:31.008-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:31.008-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:05:31.020-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:05:31.020-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-02T05:05:31.020251+00:00, run_after=2023-11-03T05:05:31.020251+00:00
+[2023-11-03T02:05:31.124-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.327 seconds
+[2023-11-03T02:06:06.122-0300] {processor.py:157} INFO - Started process (PID=27841) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:06.128-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:06:06.129-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:06.129-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:06.297-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:06.306-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:06.306-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:06:06.318-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:06.318-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:06:06.333-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.212 seconds
+[2023-11-03T02:06:51.374-0300] {processor.py:157} INFO - Started process (PID=28153) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:51.381-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:06:51.381-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:51.381-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:51.560-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:06:51.569-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:51.569-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:06:51.583-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:06:51.582-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:06:51.685-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.312 seconds
+[2023-11-03T02:07:25.086-0300] {processor.py:157} INFO - Started process (PID=28490) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:25.087-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:07:25.087-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:25.087-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:25.262-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:25.272-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:25.271-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:07:25.283-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:25.283-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:07:25.298-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.214 seconds
+[2023-11-03T02:07:58.411-0300] {processor.py:157} INFO - Started process (PID=28685) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:58.412-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:07:58.413-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:58.413-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:58.593-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:07:58.602-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:58.601-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:07:58.702-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:07:58.702-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:07:58.722-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.312 seconds
+[2023-11-03T02:08:29.119-0300] {processor.py:157} INFO - Started process (PID=28871) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:29.120-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:08:29.121-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.121-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:29.291-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:29.300-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.300-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:08:29.311-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:29.311-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:08:29.326-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.209 seconds
+[2023-11-03T02:08:59.744-0300] {processor.py:157} INFO - Started process (PID=29009) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:59.751-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:08:59.752-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:59.751-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:59.927-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:08:59.936-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:59.936-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:08:59.947-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:08:59.947-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:09:00.063-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.320 seconds
+[2023-11-03T02:09:32.389-0300] {processor.py:157} INFO - Started process (PID=29211) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:09:32.390-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:09:32.391-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:32.391-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:09:32.561-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:09:32.661-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:32.661-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:09:32.672-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:09:32.671-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:09:32.690-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.303 seconds
+[2023-11-03T02:10:05.629-0300] {processor.py:157} INFO - Started process (PID=29405) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:05.636-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:10:05.636-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:05.636-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:05.809-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:05.817-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:05.817-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:10:05.830-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:05.830-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:10:05.844-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.216 seconds
+[2023-11-03T02:10:22.487-0300] {processor.py:157} INFO - Started process (PID=29577) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:22.489-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:10:22.489-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:22.489-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:22.660-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:10:22.669-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:22.668-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:10:22.768-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:10:22.768-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:10:22.790-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.304 seconds
+[2023-11-03T02:11:02.258-0300] {processor.py:157} INFO - Started process (PID=29868) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:02.264-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:11:02.264-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:02.264-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:02.438-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:02.537-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:02.537-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:11:02.547-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:02.547-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:11:02.567-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.311 seconds
+[2023-11-03T02:11:40.583-0300] {processor.py:157} INFO - Started process (PID=30145) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:40.589-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:11:40.590-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:40.589-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:40.766-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:11:40.775-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:40.775-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:11:40.879-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:11:40.879-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:11:40.898-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.317 seconds
+[2023-11-03T02:12:16.133-0300] {processor.py:157} INFO - Started process (PID=30490) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:16.135-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:12:16.136-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:16.136-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:16.308-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:16.317-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:16.317-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:12:16.328-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:16.328-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:12:16.344-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.212 seconds
+[2023-11-03T02:12:51.326-0300] {processor.py:157} INFO - Started process (PID=30725) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:51.332-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:12:51.333-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:51.333-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:51.502-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:12:51.511-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:51.511-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:12:51.523-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:12:51.523-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:12:51.625-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.300 seconds
+[2023-11-03T02:13:22.144-0300] {processor.py:157} INFO - Started process (PID=30900) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:22.150-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:13:22.151-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:22.151-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:22.324-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:22.415-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:22.414-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:13:22.424-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:22.424-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:13:22.444-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.301 seconds
+[2023-11-03T02:13:54.247-0300] {processor.py:157} INFO - Started process (PID=31056) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:54.248-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:13:54.249-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:54.249-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:54.425-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:13:54.434-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:54.434-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:13:54.534-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:13:54.534-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:13:54.548-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.303 seconds
+[2023-11-03T02:14:36.519-0300] {processor.py:157} INFO - Started process (PID=31302) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:14:36.520-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:14:36.520-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:36.520-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:14:36.796-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:14:36.804-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:36.804-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:14:36.815-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:14:36.815-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:14:36.828-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.311 seconds
+[2023-11-03T02:15:07.992-0300] {processor.py:157} INFO - Started process (PID=31491) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:07.993-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:15:07.993-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:07.993-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:08.253-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:08.259-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:08.259-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:15:08.270-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:08.270-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:15:08.284-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:15:38.834-0300] {processor.py:157} INFO - Started process (PID=31634) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:38.841-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:15:38.841-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:38.841-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:39.107-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:15:39.114-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:39.114-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:15:39.123-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:15:39.123-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:15:39.143-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.310 seconds
+[2023-11-03T02:16:10.066-0300] {processor.py:157} INFO - Started process (PID=31819) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:10.067-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:16:10.068-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:10.068-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:10.328-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:10.335-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:10.334-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:16:10.345-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:10.345-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:16:10.360-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:16:43.190-0300] {processor.py:157} INFO - Started process (PID=31978) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:43.196-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:16:43.197-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:43.197-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:43.454-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:16:43.461-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:43.460-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:16:43.471-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:16:43.471-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:16:43.491-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.302 seconds
+[2023-11-03T02:17:15.192-0300] {processor.py:157} INFO - Started process (PID=32192) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:15.199-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:17:15.200-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:15.199-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:15.462-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:15.469-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:15.468-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:17:15.479-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:15.479-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:17:15.494-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.304 seconds
+[2023-11-03T02:17:46.582-0300] {processor.py:157} INFO - Started process (PID=32344) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:46.583-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:17:46.584-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:46.584-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:46.876-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:17:46.883-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:46.883-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:17:46.893-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:17:46.893-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:17:46.912-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.332 seconds
+[2023-11-03T02:18:18.427-0300] {processor.py:157} INFO - Started process (PID=32537) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:18.428-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:18:18.429-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:18.429-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:18.689-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:18.698-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:18.697-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:18:18.708-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:18.708-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:18:18.722-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:18:49.211-0300] {processor.py:157} INFO - Started process (PID=32673) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:49.217-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:18:49.217-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:49.217-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:49.476-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:18:49.483-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:49.482-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:18:49.493-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:18:49.493-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:18:49.508-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.299 seconds
+[2023-11-03T02:19:21.552-0300] {processor.py:157} INFO - Started process (PID=32866) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:21.558-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:19:21.558-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:21.558-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:21.819-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:21.826-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:21.825-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:19:21.835-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:21.835-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:19:21.850-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.300 seconds
+[2023-11-03T02:19:54.392-0300] {processor.py:157} INFO - Started process (PID=33024) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:54.393-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:19:54.394-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:54.394-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:54.687-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:19:54.695-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:54.695-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:19:54.709-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:19:54.709-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:19:54.727-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.339 seconds
+[2023-11-03T02:20:26.325-0300] {processor.py:157} INFO - Started process (PID=33197) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:20:26.326-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:20:26.327-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:26.326-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:20:26.599-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:20:26.606-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:26.605-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:20:26.615-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:20:26.615-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:20:26.632-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.308 seconds
+[2023-11-03T02:21:12.003-0300] {processor.py:157} INFO - Started process (PID=33444) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:12.004-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:21:12.004-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:12.004-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:12.301-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:12.310-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:12.309-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:21:12.322-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:12.322-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:21:12.336-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.334 seconds
+[2023-11-03T02:21:44.107-0300] {processor.py:157} INFO - Started process (PID=33602) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:44.112-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:21:44.113-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:44.113-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:44.369-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:21:44.376-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:44.376-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:21:44.387-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:21:44.387-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:21:44.409-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.304 seconds
+[2023-11-03T02:22:29.978-0300] {processor.py:157} INFO - Started process (PID=33884) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:22:29.979-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:22:29.980-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:29.980-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:22:30.235-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:22:30.242-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:30.242-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:22:30.252-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:22:30.252-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:22:30.271-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.294 seconds
+[2023-11-03T02:23:01.181-0300] {processor.py:157} INFO - Started process (PID=34053) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:01.182-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:23:01.183-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:01.182-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:01.442-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:01.449-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:01.449-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:23:01.459-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:01.459-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:23:01.473-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:23:32.199-0300] {processor.py:157} INFO - Started process (PID=34207) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:32.200-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:23:32.201-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:32.201-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:32.456-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:23:32.463-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:32.463-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:23:32.473-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:23:32.473-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:23:32.492-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.295 seconds
+[2023-11-03T02:24:05.094-0300] {processor.py:157} INFO - Started process (PID=34407) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:05.100-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:24:05.100-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:05.100-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:05.354-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:05.361-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:05.361-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:24:05.371-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:05.371-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:24:05.385-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:24:50.528-0300] {processor.py:157} INFO - Started process (PID=34614) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:50.534-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:24:50.535-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:50.534-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:50.789-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:24:50.795-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:50.795-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:24:50.805-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:24:50.805-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:24:50.819-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:25:24.865-0300] {processor.py:157} INFO - Started process (PID=34814) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:24.867-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:25:24.868-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:24.867-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:25.123-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:25.129-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:25.129-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:25:25.140-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:25.139-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:25:25.160-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:25:56.069-0300] {processor.py:157} INFO - Started process (PID=34952) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:56.070-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:25:56.070-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:56.070-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:56.325-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:25:56.332-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:56.332-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:25:56.341-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:25:56.341-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:25:56.356-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.289 seconds
+[2023-11-03T02:26:27.204-0300] {processor.py:157} INFO - Started process (PID=35137) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:27.210-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:26:27.211-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:27.211-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:27.469-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:27.476-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:27.476-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:26:27.487-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:27.486-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:26:27.506-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.303 seconds
+[2023-11-03T02:26:58.863-0300] {processor.py:157} INFO - Started process (PID=35296) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:58.863-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:26:58.864-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:58.864-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:59.118-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:26:59.125-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:59.124-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:26:59.135-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:26:59.135-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:26:59.154-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:27:31.374-0300] {processor.py:157} INFO - Started process (PID=35506) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:27:31.380-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:27:31.381-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:31.381-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:27:31.638-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:27:31.645-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:31.644-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:27:31.655-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:27:31.654-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:27:31.675-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.302 seconds
+[2023-11-03T02:28:03.308-0300] {processor.py:157} INFO - Started process (PID=35693) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:03.315-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:28:03.315-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:03.315-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:03.577-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:03.584-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:03.584-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:28:03.594-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:03.594-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:28:03.613-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.307 seconds
+[2023-11-03T02:28:34.327-0300] {processor.py:157} INFO - Started process (PID=35844) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:34.333-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:28:34.334-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:34.334-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:34.593-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:28:34.600-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:34.600-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:28:34.609-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:28:34.609-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:28:34.629-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.303 seconds
+[2023-11-03T02:29:08.241-0300] {processor.py:157} INFO - Started process (PID=36029) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:08.247-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:29:08.248-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:08.248-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:08.505-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:08.512-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:08.512-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:29:08.522-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:08.522-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:29:08.536-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:29:39.964-0300] {processor.py:157} INFO - Started process (PID=36188) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:39.970-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:29:39.971-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:39.971-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:40.235-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:29:40.244-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:40.244-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:29:40.259-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:29:40.259-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:29:40.276-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.314 seconds
+[2023-11-03T02:30:11.659-0300] {processor.py:157} INFO - Started process (PID=36373) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:11.666-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:30:11.667-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:11.667-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:11.922-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:11.929-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:11.929-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:30:11.939-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:11.939-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:30:11.953-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.295 seconds
+[2023-11-03T02:30:45.300-0300] {processor.py:157} INFO - Started process (PID=36524) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:45.306-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:30:45.307-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:45.307-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:45.568-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:30:45.575-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:45.574-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:30:45.585-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:30:45.585-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:30:45.605-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.306 seconds
+[2023-11-03T02:31:16.332-0300] {processor.py:157} INFO - Started process (PID=36710) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:31:16.334-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:31:16.334-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:16.334-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:31:16.589-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:31:16.596-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:16.595-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:31:16.605-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:31:16.605-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:31:16.624-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:32:00.716-0300] {processor.py:157} INFO - Started process (PID=36936) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:00.718-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:32:00.718-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:00.718-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:00.980-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:00.987-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:00.986-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:32:00.998-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:00.998-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:32:01.013-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.298 seconds
+[2023-11-03T02:32:32.226-0300] {processor.py:157} INFO - Started process (PID=37140) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:32.227-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:32:32.227-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:32.227-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:32.486-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:32:32.493-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:32.492-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:32:32.503-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:32:32.503-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:32:32.517-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.292 seconds
+[2023-11-03T02:33:03.113-0300] {processor.py:157} INFO - Started process (PID=37311) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:03.114-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:33:03.114-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:03.114-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:03.367-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:03.373-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:03.373-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:33:03.384-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:03.384-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:33:03.403-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.292 seconds
+[2023-11-03T02:33:34.135-0300] {processor.py:157} INFO - Started process (PID=37462) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:34.137-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:33:34.137-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:34.137-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:34.391-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:33:34.398-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:34.398-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:33:34.408-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:33:34.408-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:33:34.427-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.293 seconds
+[2023-11-03T02:34:07.583-0300] {processor.py:157} INFO - Started process (PID=37661) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:07.590-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:34:07.590-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:07.590-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:07.845-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:07.852-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:07.851-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:34:07.862-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:07.862-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:34:07.877-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.295 seconds
+[2023-11-03T02:34:41.365-0300] {processor.py:157} INFO - Started process (PID=37805) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:41.372-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:34:41.373-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:41.373-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:41.631-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:34:41.638-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:41.637-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:34:41.651-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:34:41.651-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:34:41.665-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.301 seconds
+[2023-11-03T02:35:13.473-0300] {processor.py:157} INFO - Started process (PID=37998) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:13.480-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:35:13.480-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:13.480-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:13.734-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:13.741-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:13.741-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:35:13.751-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:13.751-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:35:13.770-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.298 seconds
+[2023-11-03T02:35:45.195-0300] {processor.py:157} INFO - Started process (PID=38156) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:45.201-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:35:45.201-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:45.201-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:45.442-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:35:45.449-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:45.448-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:35:45.458-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:35:45.458-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:35:45.477-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.284 seconds
+[2023-11-03T02:36:17.937-0300] {processor.py:157} INFO - Started process (PID=38334) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:36:17.938-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:36:17.939-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:17.939-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:36:18.183-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:36:18.190-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:18.190-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:36:18.199-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:36:18.199-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:36:18.218-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.282 seconds
+[2023-11-03T02:37:01.990-0300] {processor.py:157} INFO - Started process (PID=38570) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:01.991-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:37:01.992-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:01.991-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:02.236-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:02.243-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:02.243-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:37:02.254-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:02.254-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:37:02.270-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.281 seconds
+[2023-11-03T02:37:43.711-0300] {processor.py:157} INFO - Started process (PID=38803) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:43.718-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:37:43.719-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:43.718-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:43.978-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:37:43.985-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:43.985-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:37:43.995-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:37:43.995-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:37:44.015-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.305 seconds
+[2023-11-03T02:38:17.500-0300] {processor.py:157} INFO - Started process (PID=38998) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:38:17.501-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:38:17.502-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:17.502-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:38:17.752-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:38:17.759-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:17.758-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:38:17.769-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:38:17.769-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:38:17.787-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.289 seconds
+[2023-11-03T02:39:03.927-0300] {processor.py:157} INFO - Started process (PID=39246) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:03.928-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:39:03.929-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:03.929-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:04.180-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:04.187-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:04.187-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:39:04.198-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:04.197-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:39:04.217-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.291 seconds
+[2023-11-03T02:39:34.339-0300] {processor.py:157} INFO - Started process (PID=39383) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:34.346-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:39:34.346-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:34.346-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:34.602-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:39:34.610-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:34.609-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:39:34.619-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:39:34.619-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:39:34.639-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.301 seconds
+[2023-11-03T02:40:07.008-0300] {processor.py:157} INFO - Started process (PID=39575) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:07.014-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:40:07.015-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.015-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:07.273-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:07.280-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.280-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:40:07.290-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:07.290-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:40:07.305-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.299 seconds
+[2023-11-03T02:40:40.704-0300] {processor.py:157} INFO - Started process (PID=39735) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:40.706-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:40:40.706-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:40.706-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:40.965-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:40:40.972-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:40.972-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:40:40.982-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:40:40.982-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:40:41.002-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.299 seconds
+[2023-11-03T02:41:15.876-0300] {processor.py:157} INFO - Started process (PID=39927) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:15.883-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:41:15.883-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:15.883-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:16.145-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:16.152-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:16.152-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:41:16.162-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:16.162-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:41:16.182-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.308 seconds
+[2023-11-03T02:41:50.378-0300] {processor.py:157} INFO - Started process (PID=40087) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:50.384-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:41:50.385-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:50.384-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:50.652-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:41:50.660-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:50.659-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:41:50.670-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:41:50.670-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:41:50.690-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.313 seconds
+[2023-11-03T02:42:24.548-0300] {processor.py:157} INFO - Started process (PID=40323) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:24.549-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:42:24.550-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:24.549-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:24.806-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:24.813-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:24.813-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:42:24.823-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:24.823-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:42:24.843-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.297 seconds
+[2023-11-03T02:42:55.448-0300] {processor.py:157} INFO - Started process (PID=40460) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:55.449-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:42:55.450-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:55.450-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:55.706-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:42:55.713-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:55.712-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:42:55.723-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:42:55.723-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:42:55.743-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.297 seconds
+[2023-11-03T02:43:40.131-0300] {processor.py:157} INFO - Started process (PID=40701) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:43:40.137-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:43:40.138-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:40.138-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:43:40.398-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:43:40.404-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:40.404-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:43:40.414-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:43:40.414-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:43:40.428-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.299 seconds
+[2023-11-03T02:44:12.633-0300] {processor.py:157} INFO - Started process (PID=40895) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:12.634-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:44:12.634-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:12.634-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:12.889-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:12.896-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:12.896-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:44:12.906-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:12.905-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:44:12.919-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.288 seconds
+[2023-11-03T02:44:43.654-0300] {processor.py:157} INFO - Started process (PID=41047) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:43.661-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:44:43.661-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:43.661-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:43.915-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:44:43.922-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:43.921-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:44:43.932-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:44:43.932-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:44:43.951-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.298 seconds
+[2023-11-03T02:45:15.688-0300] {processor.py:157} INFO - Started process (PID=41224) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:45:15.689-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:45:15.689-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:15.689-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:45:15.946-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:45:15.954-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:15.953-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:45:15.964-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:45:15.964-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:45:15.983-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:46:00.778-0300] {processor.py:157} INFO - Started process (PID=41433) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:00.779-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:46:00.780-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:00.779-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:01.036-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:01.043-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:01.043-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:46:01.053-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:01.053-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:46:01.072-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:46:34.421-0300] {processor.py:157} INFO - Started process (PID=41632) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:34.427-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:46:34.427-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:34.427-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:34.682-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:46:34.689-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:34.688-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:46:34.698-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:46:34.698-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:46:34.718-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.298 seconds
+[2023-11-03T02:47:07.246-0300] {processor.py:157} INFO - Started process (PID=41857) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:07.252-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:47:07.253-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:07.252-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:07.507-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:07.514-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:07.513-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:47:07.524-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:07.524-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:47:07.540-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.296 seconds
+[2023-11-03T02:47:41.857-0300] {processor.py:157} INFO - Started process (PID=42009) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:41.859-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:47:41.860-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:41.860-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:42.108-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:47:42.114-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:42.114-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:47:42.123-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:47:42.123-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:47:42.142-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.287 seconds
+[2023-11-03T02:48:13.810-0300] {processor.py:157} INFO - Started process (PID=42195) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:13.818-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:48:13.818-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:13.818-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:14.066-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:14.072-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:14.072-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:48:14.082-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:14.082-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:48:14.096-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.287 seconds
+[2023-11-03T02:48:44.796-0300] {processor.py:157} INFO - Started process (PID=42348) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:44.797-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:48:44.798-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:44.798-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:45.045-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:48:45.052-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:45.052-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:48:45.061-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:48:45.061-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:48:45.080-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.286 seconds
+[2023-11-03T02:49:27.388-0300] {processor.py:157} INFO - Started process (PID=42583) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:49:27.395-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:49:27.395-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:27.395-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:49:27.637-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:49:27.644-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:27.643-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:49:27.653-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:49:27.653-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:49:27.672-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.284 seconds
+[2023-11-03T02:50:01.148-0300] {processor.py:157} INFO - Started process (PID=42733) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:01.155-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:50:01.156-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:01.156-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:01.404-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:01.411-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:01.411-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:50:01.421-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:01.421-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:50:01.434-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.288 seconds
+[2023-11-03T02:50:36.334-0300] {processor.py:157} INFO - Started process (PID=42935) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:36.335-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:50:36.336-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:36.336-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:36.580-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:50:36.586-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:36.586-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:50:36.595-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:50:36.595-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:50:36.614-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.281 seconds
+[2023-11-03T02:51:08.989-0300] {processor.py:157} INFO - Started process (PID=43129) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:08.990-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:51:08.991-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:08.991-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:09.237-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:09.244-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:09.244-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:51:09.253-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:09.253-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:51:09.273-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.285 seconds
+[2023-11-03T02:51:51.426-0300] {processor.py:157} INFO - Started process (PID=43315) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:51.432-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:51:51.432-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:51.432-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:51.675-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:51:51.682-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:51.682-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:51:51.691-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:51:51.691-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:51:51.711-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.286 seconds
+[2023-11-03T02:52:37.660-0300] {processor.py:157} INFO - Started process (PID=43596) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:52:37.666-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:52:37.666-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:37.666-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:52:37.912-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:52:37.919-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:37.918-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:52:37.928-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:52:37.927-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:52:37.942-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.284 seconds
+[2023-11-03T02:53:10.221-0300] {processor.py:157} INFO - Started process (PID=43788) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:10.222-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:53:10.222-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:10.222-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:10.468-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:10.474-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:10.474-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:53:10.484-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:10.484-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:53:10.497-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.278 seconds
+[2023-11-03T02:53:43.305-0300] {processor.py:157} INFO - Started process (PID=43948) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:43.312-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:53:43.312-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:43.312-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:43.557-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:53:43.564-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:43.563-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:53:43.573-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:53:43.573-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:53:43.586-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.282 seconds
+[2023-11-03T02:54:13.718-0300] {processor.py:157} INFO - Started process (PID=44118) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:13.720-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:54:13.721-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:13.721-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:13.965-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:13.972-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:13.972-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:54:13.982-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:13.981-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:54:13.995-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.278 seconds
+[2023-11-03T02:54:46.152-0300] {processor.py:157} INFO - Started process (PID=44278) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:46.158-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:54:46.159-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:46.158-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:46.402-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:54:46.409-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:46.409-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:54:46.419-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:54:46.419-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:54:46.438-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.287 seconds
+[2023-11-03T02:55:31.258-0300] {processor.py:157} INFO - Started process (PID=44520) to work on /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:55:31.259-0300] {processor.py:829} INFO - Processing file /home/felipe/airflow/dags/example_desafio.py for tasks to queue
+[2023-11-03T02:55:31.260-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:31.260-0300] {dagbag.py:536} INFO - Filling up the DagBag from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:55:31.580-0300] {processor.py:839} INFO - DAG(s) dict_keys(['DesafioAirflow']) retrieved from /home/felipe/airflow/dags/example_desafio.py
+[2023-11-03T02:55:31.587-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:31.586-0300] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-03T02:55:31.598-0300] {logging_mixin.py:151} INFO - [2023-11-03T02:55:31.598-0300] {dag.py:3722} INFO - Setting next_dagrun for DesafioAirflow to 2023-11-03T05:05:31.020251+00:00, run_after=2023-11-04T05:05:31.020251+00:00
+[2023-11-03T02:55:31.613-0300] {processor.py:179} INFO - Processing /home/felipe/airflow/dags/example_desafio.py took 0.358 seconds
